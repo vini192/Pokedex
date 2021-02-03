@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.mainxmain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+/*  HEADER */
+.mainxheader {
+    text-align: center;
+    color: white;
+    height: 15%;
+    width: 100%;
+    background-color:rgba(216, 7, 7, 0.9);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.headerxlogo {
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+.headerxmenu{
+    width: 70%;
+
+
+}
+.headerxmenu div {
+    margin-top: 3%;
+}
+.headerxmenu div a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4%;
+}
+
+/*  CORPO */
+
+.mainxcorpo{
+    color: rgb(7, 5, 5);
+}
+
+.corpoxheader {
+    width: 100%;
+
+    border: solid 1px black;
+}
+
+.corpoxheader div {
+    width: 100%;
+    
+}
+
+.corpoxcorpo 
+
+
+
+.corpoxgeracao {
+    margin-top: 0%;
+    width: 100%;
+    height: 10%;
+    border: solid 1px yellow;
+}
+
+.corpoxpokemons{
+    border: solid 1px blue;
+    width: 30%;
+}
+
